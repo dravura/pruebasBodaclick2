@@ -1,0 +1,7 @@
+parameters:
+#    victor_pruebas_alimentos.example.class: Victor\Pruebas\AlimentosBundle\Example
+
+services:
+#    victor_pruebas_alimentos.example:
+#        class: %victor_pruebas_alimentos.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

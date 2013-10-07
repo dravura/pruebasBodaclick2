@@ -1,0 +1,19 @@
+VPAB_homepage:
+ pattern:  /
+ defaults: { _controller: VictorPruebasAlimentosBundle:Default:index }
+
+VPAB_listar:
+ pattern:  /listar
+ defaults: { _controller: VictorPruebasAlimentosBundle:Default:listar }
+
+VPAB_insertar:
+ pattern:  /insertar
+ defaults: { _controller: VictorPruebasAlimentosBundle:Default:insertar }
+
+VPAB_buscar:
+ pattern:  /buscar
+ defaults: { _controller: VictorPruebasAlimentosBundle:Default:buscarPorNombre }
+
+VPAB_ver:
+ pattern:  /ver{id}
+ defaults: { _controller: VictorPruebasAlimentosBundle:Default:ver }

@@ -1,0 +1,4 @@
+victor_pruebas_alimentos:
+    resource: "@VictorPruebasAlimentosBundle/Resources/config/routing.yml"
+    prefix:   /alimentos
+
